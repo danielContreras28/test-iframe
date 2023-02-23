@@ -1,0 +1,606 @@
+{
+  "token": "eyJhbGciOiJSUzI1NiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE2NzcwMTg2MjUsImV4cCI6MTY3NzEwNTAyNSwiaXNzIjoiaHR0cDovL3VzZXItc2VydmljZS5uNS5zdmMuY2x1c3Rlci5sb2NhbDo4MDgwIiwibmFtZSI6Imp0YW1heW8iLCJzdWIiOiJkMmQ5NTQyMy04MjYyLTQ2ZWEtODRjYi1hMDBhMmM2NThiYTMiLCJhdXRoX3RpbWUiOiIxNjc3MDE4NjI1IiwiaWRwIjoibG9jYWwiLCJyb2xlIjoiRXhlY3V0aXZlLEZUUCxBZ2VudGUgUmllc2dvLEFuYWxpc3RhIGRlIGN1bXBsaW1pZW50byxTdXBlcnZpc29yLENvbnN1bHRvcixDYWxsQ2VudGVyLEVtcGxveWVlLE1hbmFnZXIsQWdlbnRlIEZyb250LEFnZW50ZSBCYWNrLEFkbWluaXN0cmF0b3IsQmFja29mZmljZSxDYW1wYWlnbnMsSGllcmFyY2hpY2FsLFN1cGVyQWRtaW5pc3RyYXRvciIsInNwYS11c2VyIjoiYXVXd2JrNXEwRWtQZjg3VFI2SmRpZE8vV01GU2paZ2EwQ3VORjByOW1xMD0iLCJzcGEta2V5IjoidHhlYSs3U24rOXRSVnd1SnJ3N0JpLy9wWXBTSG9NOHUvQ21iazBxejVKcz0iLCJhdWQiOiJ1c3IiLCJjbGllbnRfaWQiOiJ1c2Vycy1zZXJ2aWNlIiwic2NvcGUiOlsib3BlbmlkIiwiYmFEYSIsInVzciJdLCJhbXIiOlsicHdkIl19.TDDKAeQux5GyyjU0LMDdpmcSJVmcA1g27pCX1asYNbI-FQ0dMY-52cvGQYhfe4ZHlmhqgiW_n_Um0MEJMSI8vjvXhAC0t8QuGnd6SolNtVgnNmScIJhA2_jntc1lvbf1e2HKUDf9NuiaV2Ew2Pc0FsWh_tv94MsG0BTgXhBFIJy9JRNh7syPmwybYC3XsFUKt69cZOEfCiCGR8r37ay-x0jHosAVGVHwdX89i_tNoKkmhVgUAdhrvqzc3AK51KDejtOjATRk6sZF5w3WPJTqVxKS_8de_0nK6Uh-lAg8E7Pzw30ciD_H9vfGkrtqiUlqhYF7u1nsvUpkVghu8A0ltA",
+  "id": "d2d95423-8262-46ea-84cb-a00a2c658ba3",
+  "userName": "jtamayo",
+  "name": "Johan Alejandro",
+  "lastname": "Tamayo Carrasquilla",
+  "channelId": 0,
+  "email": "johan.tamayo@n5now.com",
+  "documentType": null,
+  "documentNumber": null,
+  "roles": [
+    "Executive",
+    "FTP",
+    "Agente Riesgo",
+    "Analista de cumplimiento",
+    "Supervisor",
+    "Consultor",
+    "CallCenter",
+    "Employee",
+    "Manager",
+    "Agente Front",
+    "Agente Back",
+    "Administrator",
+    "Backoffice",
+    "Campaigns",
+    "Hierarchical",
+    "SuperAdministrator"
+  ],
+  "claims": [
+    {
+      "name": "Ver cuenta",
+      "value": "1400",
+      "namespace": "AccountsPermissions.View"
+    },
+    {
+      "name": "Listar cuentas",
+      "value": "1401",
+      "namespace": "AccountsPermissions.List"
+    },
+    {
+      "name": "Crear cuenta",
+      "value": "1402",
+      "namespace": "AccountsPermissions.Create"
+    },
+    {
+      "name": "Modificar cuenta",
+      "value": "1403",
+      "namespace": "AccountsPermissions.Update"
+    },
+    {
+      "name": "Eliminar cuenta",
+      "value": "1404",
+      "namespace": "AccountsPermissions.Delete"
+    },
+    {
+      "name": "Agregar rol",
+      "value": "1405",
+      "namespace": "AccountsPermissions.AddRole"
+    },
+    {
+      "name": "Sacar rol",
+      "value": "1406",
+      "namespace": "AccountsPermissions.RemoveRole"
+    },
+    {
+      "name": "Deshabilitar cuenta",
+      "value": "1407",
+      "namespace": "AccountsPermissions.Disable"
+    },
+    {
+      "name": "Login",
+      "value": "1409",
+      "namespace": "AccountsPermissions.Login"
+    },
+    {
+      "name": "Listar canales",
+      "value": "1412",
+      "namespace": "AccountsPermissions.ListChannels"
+    },
+    {
+      "name": "Listar ejecutivos",
+      "value": "1413",
+      "namespace": "AccountsPermissions.ListExecutives"
+    },
+    {
+      "name": "Listar usuarios",
+      "value": "1414",
+      "namespace": "AccountsPermissions.ListUsers"
+    },
+    {
+      "name": "Ver grupo",
+      "value": "3100",
+      "namespace": "AdministrationGroupPermissions.View"
+    },
+    {
+      "name": "Listar filtros",
+      "value": "2151",
+      "namespace": "AdministrationGroupPermissions.List"
+    },
+    {
+      "name": "Ver sucursales",
+      "value": "1800",
+      "namespace": "BranchOfficesPermissions.Get"
+    },
+    {
+      "name": "Ver bancas",
+      "value": "1801",
+      "namespace": "BranchOfficesPermissions.GetHeads"
+    },
+    {
+      "name": "Crear tarea en el calendario",
+      "value": "2500",
+      "namespace": "CalendarPermissions.CreateTask"
+    },
+    {
+      "name": "Listar tareas del calendario",
+      "value": "2501",
+      "namespace": "CalendarPermissions.ListTasks"
+    },
+    {
+      "name": "Editar tareas del calendario",
+      "value": "2502",
+      "namespace": "CalendarPermissions.EditTask"
+    },
+    {
+      "name": "Cambiar estado de las tareas del calendario",
+      "value": "2503",
+      "namespace": "CalendarPermissions.ChangeStatusTask"
+    },
+    {
+      "name": "Reprogramar tarea del calendario",
+      "value": "2504",
+      "namespace": "CalendarPermissions.Reschedule"
+    },
+    {
+      "name": "Ver CTA",
+      "value": "1300",
+      "namespace": "CtasPermissions.View"
+    },
+    {
+      "name": "Listar CTAs",
+      "value": "1301",
+      "namespace": "CtasPermissions.List"
+    },
+    {
+      "name": "Crear CTA",
+      "value": "1302",
+      "namespace": "CtasPermissions.Create"
+    },
+    {
+      "name": "Modificar CTA",
+      "value": "1303",
+      "namespace": "CtasPermissions.Update"
+    },
+    {
+      "name": "Eliminar CTA",
+      "value": "1304",
+      "namespace": "CtasPermissions.Delete"
+    },
+    {
+      "name": "Listar categorías de CTAs",
+      "value": "1305",
+      "namespace": "CtasPermissions.ListCategories"
+    },
+    {
+      "name": "Crear campaña",
+      "value": "1306",
+      "namespace": "CtasPermissions.CreateCampaign"
+    },
+    {
+      "name": "Ver dato N5",
+      "value": "2000",
+      "namespace": "CustomerFieldsPermissions.View"
+    },
+    {
+      "name": "Listar datos N5",
+      "value": "2001",
+      "namespace": "CustomerFieldsPermissions.List"
+    },
+    {
+      "name": "Crear dato N5",
+      "value": "2002",
+      "namespace": "CustomerFieldsPermissions.Create"
+    },
+    {
+      "name": "Modificar dato N5",
+      "value": "2003",
+      "namespace": "CustomerFieldsPermissions.Update"
+    },
+    {
+      "name": "Eliminar dato N5",
+      "value": "2004",
+      "namespace": "CustomerFieldsPermissions.Delete"
+    },
+    {
+      "name": "Listar grupos de datos N5",
+      "value": "2005",
+      "namespace": "CustomerFieldsPermissions.ListGrouping"
+    },
+    {
+      "name": "Listar categorias de datos N5",
+      "value": "2006",
+      "namespace": "CustomerFieldsPermissions.ListCategories"
+    },
+    {
+      "name": "Listar tipos de datos N5",
+      "value": "2100",
+      "namespace": "CustomerFieldTypesPermissions.List"
+    },
+    {
+      "name": "Ver los clientes",
+      "value": "1000",
+      "namespace": "CustomersPermissions.View"
+    },
+    {
+      "name": "Listar clientes",
+      "value": "1001",
+      "namespace": "CustomersPermissions.List"
+    },
+    {
+      "name": "Buscar clientes",
+      "value": "1002",
+      "namespace": "CustomersPermissions.Search"
+    },
+    {
+      "name": "Cargar clientes",
+      "value": "1003",
+      "namespace": "CustomersPermissions.Upload"
+    },
+    {
+      "name": "Ver historial de cliente",
+      "value": "1004",
+      "namespace": "CustomersPermissions.ViewHistory"
+    },
+    {
+      "name": "Ver filtros de clientes",
+      "value": "1005",
+      "namespace": "CustomersPermissions.ViewFilters"
+    },
+    {
+      "name": "Listar razones de acceso a FMC",
+      "value": "1006",
+      "namespace": "CustomersPermissions.ListFmcAccessReasons"
+    },
+    {
+      "name": "Guardar historia de acceso a FMC",
+      "value": "1007",
+      "namespace": "CustomersPermissions.SaveFmcAccessHistory"
+    },
+    {
+      "name": "Guardar registro histórico",
+      "value": "1009",
+      "namespace": "CustomersPermissions.SaveHistoryRecord"
+    },
+    {
+      "name": "Crear cliente",
+      "value": "1011",
+      "namespace": "CustomersPermissions.Create"
+    },
+    {
+      "name": "Generar reporte de crédito",
+      "value": "1012",
+      "namespace": "CustomersPermissions.GenerateCreditReport"
+    },
+    {
+      "name": "Assign executive",
+      "value": "1013",
+      "namespace": "CustomersPermissions.AssignExecutive"
+    },
+    {
+      "name": "Enviar notificación a ejecutivo",
+      "value": "1014",
+      "namespace": "CustomersPermissions.NotifyExecutive"
+    },
+    {
+      "name": "Ver CTAs en FMC",
+      "value": "1015",
+      "namespace": "CustomersPermissions.ViewCTA"
+    },
+    {
+      "name": "Ver funnel",
+      "value": "1650",
+      "namespace": "DashboardPermissions.ViewFunnel"
+    },
+    {
+      "name": "Ver atención en las sucursales",
+      "value": "1651",
+      "namespace": "DashboardPermissions.ViewBranchesAttention"
+    },
+    {
+      "name": "Ver eventos en tiempo real",
+      "value": "1652",
+      "namespace": "DashboardPermissions.ViewRealTimeEvents"
+    },
+    {
+      "name": "Documents Manager - Búsqueda",
+      "value": "3200",
+      "namespace": "DocumentManagerPermissions.Search"
+    },
+    {
+      "name": "Documents Manager - Descarga",
+      "value": "3201",
+      "namespace": "DocumentManagerPermissions.Download"
+    },
+    {
+      "name": "Documents Manager - Crear archivo",
+      "value": "3202",
+      "namespace": "DocumentManagerPermissions.CreateFile"
+    },
+    {
+      "name": "Documents Manager - Ver detalle de archivo",
+      "value": "3203",
+      "namespace": "DocumentManagerPermissions.GetFile"
+    },
+    {
+      "name": "Documents Manager - Modificar archivo",
+      "value": "3204",
+      "namespace": "DocumentManagerPermissions.ModifyFile"
+    },
+    {
+      "name": "Documents Manager - Eliminar archivo",
+      "value": "3205",
+      "namespace": "DocumentManagerPermissions.DeleteFile"
+    },
+    {
+      "name": "Documents Manager - Eliminar archivo desde FMC",
+      "value": "3206",
+      "namespace": "DocumentManagerPermissions.DeleteFileRelationship"
+    },
+    {
+      "name": "Documents Manager - Ver detalle de carpeta",
+      "value": "3207",
+      "namespace": "DocumentManagerPermissions.GetFolder"
+    },
+    {
+      "name": "Documents Manager - Crear carpeta",
+      "value": "3208",
+      "namespace": "DocumentManagerPermissions.CreateFolder"
+    },
+    {
+      "name": "Documents Manager - Modificar carpeta",
+      "value": "3209",
+      "namespace": "DocumentManagerPermissions.ModifyFolder"
+    },
+    {
+      "name": "Documents Manager - Eliminar carpeta",
+      "value": "3210",
+      "namespace": "DocumentManagerPermissions.DeleteFolder"
+    },
+    {
+      "name": "Guardar regla de evento",
+      "value": "1100",
+      "namespace": "EventRulesPermissions.Save"
+    },
+    {
+      "name": "Ver reglas de eventos",
+      "value": "1101",
+      "namespace": "EventRulesPermissions.View"
+    },
+    {
+      "name": "Ver filtro",
+      "value": "2150",
+      "namespace": "FiltersPermissions.View"
+    },
+    {
+      "name": "Listar filtros",
+      "value": "2151",
+      "namespace": "FiltersPermissions.List"
+    },
+    {
+      "name": "Listar grupos",
+      "value": "2601",
+      "namespace": "GroupPermissions.List"
+    },
+    {
+      "name": "Ver árbol jerárquico de grupos",
+      "value": "2606",
+      "namespace": "GroupPermissions.GetHierarchyGroups"
+    },
+    {
+      "name": "Ver clientes de la cartera",
+      "value": "2607",
+      "namespace": "GroupPermissions.GetCustomers"
+    },
+    {
+      "name": "Listar ejecutivos ",
+      "value": "2608",
+      "namespace": "GroupPermissions.GetExecutives"
+    },
+    {
+      "name": "Crear cartera",
+      "value": "2609",
+      "namespace": "GroupPermissions.CreatePortfolio"
+    },
+    {
+      "name": "Desasignar ejecutivo",
+      "value": "2610",
+      "namespace": "GroupPermissions.Unassign"
+    },
+    {
+      "name": "Asignar ejecutivo",
+      "value": "2611",
+      "namespace": "GroupPermissions.Assign"
+    },
+    {
+      "name": "Eliminar cartera",
+      "value": "2612",
+      "namespace": "GroupPermissions.Remove"
+    },
+    {
+      "name": "Enviar correo al cliente",
+      "value": "2900",
+      "namespace": "InteractionPermissions.SendMailToCustomer"
+    },
+    {
+      "name": "Agregar acción de KPI",
+      "value": "1600",
+      "namespace": "KpisPermissions.AddUIAction"
+    },
+    {
+      "name": "Acceso a Mis Clientes",
+      "value": "1090",
+      "namespace": "MyCustomersPermissions.Access"
+    },
+    {
+      "name": "Mis Clientes Asignar cartera",
+      "value": "1091",
+      "namespace": "MyCustomersPermissions.AssignPortfolio"
+    },
+    {
+      "name": "Ver todos los clientes",
+      "value": "1092",
+      "namespace": "MyCustomersPermissions.ViewAll"
+    },
+    {
+      "name": "Listar períodos",
+      "value": "1700",
+      "namespace": "MyResultsPermissions.Periods"
+    },
+    {
+      "name": "Listar objetivos comerciales",
+      "value": "1701",
+      "namespace": "MyResultsPermissions.CommercialGoals"
+    },
+    {
+      "name": "Listar eventos de objetivo comercial",
+      "value": "1702",
+      "namespace": "MyResultsPermissions.EventsByGoal"
+    },
+    {
+      "name": "Listar CTAs completos por producto",
+      "value": "1703",
+      "namespace": "MyResultsPermissions.CtasDoneByProduct"
+    },
+    {
+      "name": "Listar CTAs pendientes por producto",
+      "value": "1704",
+      "namespace": "MyResultsPermissions.CtasPendingByProduct"
+    },
+    {
+      "name": "Listar ventas por producto",
+      "value": "1705",
+      "namespace": "MyResultsPermissions.SalesByProduct"
+    },
+    {
+      "name": "Ver puntaje de sistematica",
+      "value": "1706",
+      "namespace": "MyResultsPermissions.SystematicScore"
+    },
+    {
+      "name": "Ver filtros por tipo",
+      "value": "1707",
+      "namespace": "MyResultsPermissions.FilterByType"
+    },
+    {
+      "name": "Ver puntaje del usuario",
+      "value": "1708",
+      "namespace": "MyResultsPermissions.UserScore"
+    },
+    {
+      "name": "Ver detalle de sistematica",
+      "value": "1709",
+      "namespace": "MyResultsPermissions.SystematicDetail"
+    },
+    {
+      "name": "Ver jerarquía de mis resultados",
+      "value": "1710",
+      "namespace": "MyResultsPermissions.Hierachy"
+    },
+    {
+      "name": "1711",
+      "value": "1711",
+      "namespace": "MyResultsPermissions.Awards"
+    },
+    {
+      "name": "Listar roles",
+      "value": "2300",
+      "namespace": "PermissionsViewPermissions.List"
+    },
+    {
+      "name": "Ver imágen de cliente",
+      "value": "3000",
+      "namespace": "PicturesPermissions.ViewCustomer"
+    },
+    {
+      "name": "Actualizar imágen de cliente",
+      "value": "3001",
+      "namespace": "PicturesPermissions.UploadCustomer"
+    },
+    {
+      "name": "Ver imágen de usuario",
+      "value": "3002",
+      "namespace": "PicturesPermissions.ViewUser"
+    },
+    {
+      "name": "Ver firma de cliente",
+      "value": "3004",
+      "namespace": "PicturesPermissions.ViewSignature"
+    },
+    {
+      "name": "Actualizar firma de cliente",
+      "value": "3005",
+      "namespace": "PicturesPermissions.UploadSignature"
+    },
+    {
+      "name": "Asignar cliente a cartera",
+      "value": "2806",
+      "namespace": "PortfolioPermissions.AssignCustomer"
+    },
+    {
+      "name": "Administración de carteras",
+      "value": "2807",
+      "namespace": "PortfolioPermissions.Administration"
+    },
+    {
+      "name": "Ver producto",
+      "value": "1200",
+      "namespace": "ProductsPermissions.View"
+    },
+    {
+      "name": "Crear rol",
+      "value": "1500",
+      "namespace": "RolesPermissions.Create"
+    },
+    {
+      "name": "Listar roles",
+      "value": "1501",
+      "namespace": "RolesPermissions.List"
+    },
+    {
+      "name": "Eliminar rol",
+      "value": "1502",
+      "namespace": "RolesPermissions.Delete"
+    },
+    {
+      "name": "Actualizar rol",
+      "value": "1503",
+      "namespace": "RolesPermissions.Update"
+    },
+    {
+      "name": "Ver rol",
+      "value": "1504",
+      "namespace": "RolesPermissions.Get"
+    },
+    {
+      "name": "Listar campos de fuente",
+      "value": "2201",
+      "namespace": "SourceFieldsPermissions.List"
+    },
+    {
+      "name": "Ver fuentes",
+      "value": "2250",
+      "namespace": "SourcesPermissions.List"
+    },
+    {
+      "name": "Listar usuarios",
+      "value": "2702",
+      "namespace": "UsersPermissions.List"
+    },
+    {
+      "name": "Actualizar roles del usuario",
+      "value": "2750",
+      "namespace": "UsersPermissions.UpdateRoles"
+    },
+    {
+      "name": "Listar roles del usuario",
+      "value": "2751",
+      "namespace": "UsersPermissions.ListRoles"
+    },
+    {
+      "name": "Actualizar permisos del usuario",
+      "value": "2752",
+      "namespace": "UsersPermissions.UpdateClaims"
+    },
+    {
+      "name": "Listar permisos del usuario",
+      "value": "2753",
+      "namespace": "UsersPermissions.ListClaims"
+    },
+    {
+      "name": "Actualizar permisos y roles del usuario",
+      "value": "2754",
+      "namespace": "UsersPermissions.Update"
+    }
+  ]
+}
